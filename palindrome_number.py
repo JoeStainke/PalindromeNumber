@@ -1,8 +1,3 @@
-"""
-Given an integer x, return true if x is a palindrome,
-and false otherwise.
-"""
-
 def int_to_string(int):
     # converts an integer into a string
     converted_num = str(int)

@@ -16,6 +16,7 @@ def is_num_palindrome(num):
     # reverses the number after it has been turned into a string
     reversed_num_as_string = reverse_string(num_as_string)
 
+    # checks if the original number and the reverse are the same    
     if num_as_string == reversed_num_as_string:
         return True
     else:
